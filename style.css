@@ -1,0 +1,29 @@
+body {
+    font-family: 'Nabla', cursive;
+}
+header{
+    background-color: aqua;
+    border-radius: 5px;
+}
+ul.menu {
+    text-align: center;
+    font-size: 50px;   
+}
+a.main:hover{
+    color:blueviolet;
+}
+a:hover{
+    color:chartreuse;
+}
+ul a {
+    text-decoration: none;
+    color:black;
+}
+ul.menu a {
+    color: coral;
+}
+ul.menu li.menu-item {
+    display: inline;
+    padding: 3px;
+    margin-right: 5px; 
+}
