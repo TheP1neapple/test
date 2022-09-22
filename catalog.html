@@ -1,18 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <ul>
-            <li> <a href="http://127.0.0.1:5500/main.html">Главная</a></li>
-            <li> <a href="http://127.0.0.1:5500/product.html">Страница товара</a></li>
-        </ul>
-    </header>
-    <h1>Каталог</h1>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="src/style.css"/>
+        <title>CatalogPage</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <ul class="menu">
+                    <li class="menu-item"><a class="main" href="main.html">Main</a></li>
+                    <li class="menu-item"><a class="main" href="product.html">Product</a></li>
+                    <li class="menu-item"><a class="main" href="#">Profile</a></li>
+                    <li class="menu-item"><a class="main" href="#">Settings</a></li>
+                    <li class="menu-item"><a class="main" href="#">Contacts</a></li>
+                </ul>
+            </div>
+        </header>
+        <h1>Каталог</h1>
+        <div class="container">
+            <ul class="catalog">
+                <li><a href="#">First</a>
+                    <ol>
+                        <li><a href="#">First.First</a></li>
+                        <li><a href="#">First.Second</a></li>    
+                    </ol>
+                </li>
+                <li><a href="#">Second</a></li>
+                <li><a href="#">Third</a></li>
+            </ul>
+        </div>
+    </body>
 </html>
